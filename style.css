@@ -1,0 +1,113 @@
+.p {
+  background-color: #2a2d32;
+}
+
+/* styles.css */
+.navbar-nav {
+  color: black;
+}
+.container-fluid {
+  background-color: #2a2d32; /* Ubah warna latar belakang sesuai keinginan Anda */
+}
+
+.h1 {
+  background-color: rgb(121, 13, 13);
+}
+
+.slide img {
+  transition: transform 0.3s ease;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+}
+
+.slide img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.slider {
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  flex: 0 0 auto;
+
+  scroll-snap-align: start;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(0);
+  animation: rippleEffect 0.4s;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.slide figure {
+  position: relative;
+  margin: 0;
+}
+
+/* button buy */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(255, 227, 198);
+  color: #131111;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(255, 227, 198) 56b3;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(0);
+  animation: rippleEffect 0.4s;
+}
+
+@keyframes rippleEffect {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.slider _2g6qfCnF {
+  background-color: #3e181c;
+}
